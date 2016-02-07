@@ -1,0 +1,148 @@
+
+#logo {
+    width: 50%;
+    float: left;
+}
+
+#navBar2 {
+    width: 50%;
+    float: left;
+}
+
+#navbarLocked {
+    font-family: chiller;
+    border: 1px;
+    border-color: azure;
+}
+
+.navbar-default{ /* assigning the top bar to the entire navbar div element */    
+    font-family: chiller;
+    text-align: center;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: #657481;
+    border-bottom: 4px solid gold; /* Bottom gold bar */
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #657481;
+    box-shadow: inset 0px 0px 0px #657481; /* active li item color grey */
+}
+
+.navbar-default li:after{
+    content: "|";
+    color: #b9b9b9;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    /* I looked at the original site and used the css altering the height for a better fit */
+}
+
+#logo {
+    height: 125px;
+    width: 250px;
+}
+
+#headerLogo {
+    padding-left: 5em;
+}
+
+#navBar2 {
+    padding-top: 7em;
+    display: inline;
+}
+
+#navBar2 a {
+    color: black;
+    font-size: 17.5px;
+}
+
+#navBar2 li:after{
+    content: "|";
+    color: #b9b9b9;
+    position: absolute;
+    right: 0;
+    top: 12.5px;
+}
+
+#formBackImg {
+    background-image: url('../img/beachImg.jpeg');
+    
+}
+
+#form {
+    padding-top: 2em;
+}
+
+#backOpac{
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.caption{
+    text-align: center;
+    font-size: 20px;
+    font-family: chiller;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.bg-1 {
+    background: url('../img/aboutImage.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+#aboutP {
+
+}
+
+#aboutCaption {
+    padding-bottom: 10em;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+#aboutMainContent {
+    padding-top: 1em; 
+    padding-bottom: 1em;
+}
+
+#footerList {
+    background-color: #343334;
+}
+
+#footerList a {
+    color: azure;
+}
+
+#footerList li {
+    font-family: chiller;
+    text-align: left;
+}
+
+.footerHeader {
+    padding-right: 1.5em;
+    text-align: center;
+    color: #91bed6;
+    font-family: chiller;
+}
+
+#footerHeader {
+    padding-right: 8em;
+}
+
+.footerNav li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 2em;
+    font-family: chiller;
+}
+
+.footerNav a {
+    color: grey;
+}
